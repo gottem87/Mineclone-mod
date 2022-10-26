@@ -17,8 +17,8 @@ export default class Core {
   initCamera = () => {
     this.camera.fov = 50
     this.camera.aspect = window.innerWidth / window.innerHeight
-    this.camera.near = 0.01
-    this.camera.far = 500
+    this.camera.near = 0.1
+    this.camera.far = 350
     this.camera.updateProjectionMatrix()
     this.camera.position.set(8, 50, 8)
 
@@ -38,7 +38,7 @@ export default class Core {
     this.scene.background = new THREE.Color(backgroundColor)
 
     const sunLight = new THREE.PointLight(0xffffff, 0.5)
-    sunLight.position.set(500, 500, 500)
+    sunLight.position.set(250, 250, 250)
     this.scene.add(sunLight)
 
     const sunLight2 = new THREE.PointLight(0xffffff, 0.2)
