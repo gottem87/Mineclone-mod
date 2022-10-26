@@ -1,6 +1,6 @@
 export enum Mode {
   walking = 'walking',
-  sprinting = 'sprinting',
+  sprinting https://github.com/gottem87/Mineclone-mod/tree/main/src= 'sprinting',
   flying = 'flying',
   sprintFlying = 'sprintFlying',
   sneaking = 'sneaking'
